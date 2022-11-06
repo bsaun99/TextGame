@@ -8,6 +8,8 @@ do (besides writing code!) will correspond to a `make` target.
 - To create the env for a new developer, run `make dev_env`.
 - To run the server locally, use `source/local.sh`
 - To build production, type `make prod`.
+- This is an interpreter of JSON menus. If you run the proper server locally, 
+you can interact with it by running `dev.sh` in the `textgame` directory.
 
 ## Requirements
 
