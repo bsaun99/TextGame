@@ -62,7 +62,7 @@ def run_menu(session, server, route=None, menu=None, form=None):
         elif json_ret[TYPE] == FORM:
             handle_form(session, server, json_ret)
         elif json_ret[TYPE] == MENU:
-            run_menu(server, menu=json_ret)
+            run_menu(session, server, menu=json_ret)
     elif opt[METHOD] == 'post':
         if form is None:
             print("Data to post missing from post method.")

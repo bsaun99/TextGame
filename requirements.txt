@@ -1,0 +1,2 @@
+textapp~=0.0.2
+requests~=2.28.1
